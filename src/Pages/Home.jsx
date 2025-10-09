@@ -98,7 +98,7 @@ const Home = () => {
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-4">
     {
         firstEight.map(product => 
-            <Link id={product.id} to='/products' className="group">
+            <Link key={product.id} to='/products' className="group">
         <div className="card bg-base-100 w-full shadow-sm  group-hover:scale-105 transition ease-in border-2 mx-auto">
          <figure className="h-68 w-full overflow-hidden rounded-t-xl px-5 py-5">
            <img

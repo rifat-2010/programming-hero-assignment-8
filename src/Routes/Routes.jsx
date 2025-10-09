@@ -23,32 +23,32 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
-       hydrateFallbackElement: <Loading></Loading>,
-        loader: () => fetch('../data.json')
+        hydrateFallbackElement: <Loading></Loading>,
+        loader: () => fetch('/data.json')
       },
       {
-    path: "/products",
-    element: <Products/>,
+       path: "/products",
+      element: <Products/>,
       hydrateFallbackElement: <Loading></Loading>,
-    loader: () => fetch('../data.json')
+      loader: () => fetch('/data.json')
   },
       {
         path: '/home',
         element: <Home />,
         hydrateFallbackElement: <Loading></Loading>,
-        loader: () => fetch('../data.json')
+        loader: () => fetch('/data.json')
       },
       {
         path: '/installation',
         element: <Installation />,
          hydrateFallbackElement: <Loading></Loading>,
-        loader: () => fetch('../data.json')
+        loader: () => fetch('/data.json')
       },
       {
         path: '/product/:id',
         element: <ProducsDetails/>,
          hydrateFallbackElement: <Loading></Loading>,
-        loader: () => fetch('../data.json')
+        loader: () => fetch('/data.json')
       },
     ],
   },

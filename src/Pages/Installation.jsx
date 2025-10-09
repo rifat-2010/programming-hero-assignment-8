@@ -12,11 +12,11 @@ const [wishlist, setWishlist] = useState([]);
   const [sortOrder, setSortOrder] = useState('none');
 
 useEffect(() => {
-  const savedList = JSON.parse(localStorage.getItem('wishlist'))
+  const savedList = JSON.parse(localStorage.getItem('wishlist') || '[]')
 setWishlist(savedList)
 
 }, [])
-console.log(setWishlist)
+// console.log(setWishlist)
 
 // if there is no any Installation  cart, this problem for masage
 if (!wishlist.length) return (<div className="flex flex-col justify-center items-center h-[70vh] gap-5 min-h-screen">
