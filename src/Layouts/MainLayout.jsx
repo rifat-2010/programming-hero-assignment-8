@@ -1,16 +1,25 @@
-import React from 'react';
-import Navber from '../Components/Navber';
-import Footer from '../Components/Footer';
-import { Outlet } from 'react-router';
+import React from "react";
+import Navber from "../Components/Navber";
+import Footer from "../Components/Footer";
+import { Outlet } from "react-router";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const MainLayout = () => {
-    return (
-        <div>
-            <Navber></Navber>
-            <Outlet></Outlet>
-            <Footer></Footer>
-        </div>
-    );
+  return (
+    <div>
+      <Navber></Navber>
+      <Outlet></Outlet>
+      <Footer></Footer>
+      <ToastContainer
+        position="top-right"
+        theme="dark"
+        autoClose={5000}
+        hideProgressBar={false}
+        
+      />
+    </div>
+  );
 };
 
 export default MainLayout;

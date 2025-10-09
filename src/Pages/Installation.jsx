@@ -3,6 +3,7 @@ import { FaDownload } from "react-icons/fa6";
 import { IoStarHalf } from "react-icons/io5";
 import { useEffect, useState } from "react";
 import AppErrorImg from '../assets/App-Error.png'
+import { toast } from "react-toastify";
 
 const Installation = () => {
 
@@ -26,15 +27,16 @@ if (!wishlist.length) return (<div className="flex flex-col justify-center items
 
   const sortedItem = (() => {
     if (sortOrder === 'price-asc') {
-      return [...wishlist].sort((a, b) => a.reviews - b.reviews)
+      return [...wishlist].sort((a, b) => a.downloads - b.downloads)
     } else if (sortOrder === 'price-desc') {
-      return [...wishlist].sort((a, b) => b.reviews - a.reviews)
+      return [...wishlist].sort((a, b) => b.downloads - a.downloads)
     } else {
       return wishlist
     }
   })()
 
   const handleRemove = id => {
+     toast('😢😢😢App unstalled successfully!');
     // remove from localstorage
     const existingList = JSON.parse(localStorage.getItem('wishlist'))
     let updatedList = existingList.filter(p => p.id !== id);
@@ -92,9 +94,9 @@ return (
 
       {/* Right: price + remove button */}
       <div className="flex items-center gap-4">
-        <span className="text-lg font-bold text-gray-700">${p.reviews}</span>
+      
         <div className="flex justify-center">
-         <button  onClick={() => handleRemove(p.id)} className='w-[100px] h-12 flex justify-center items-center gap-2.5 py-3 px-4 rounded-[4px] bg-[#00d390] text-white font-bold cursor-pointer'>Install</button>
+         <button  onClick={() => handleRemove(p.id)} className='w-[100px] h-12 flex justify-center items-center gap-2.5 py-3 px-4 rounded-[4px] bg-[#00d390] text-white font-bold cursor-pointer'>Unstall</button>
       </div>
       </div>
     </div>

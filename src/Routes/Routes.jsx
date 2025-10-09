@@ -11,6 +11,7 @@ import Loading from "../Loading/Loading";
 
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -54,4 +55,5 @@ const router = createBrowserRouter([
  
   
 ]);
+
 export default router
