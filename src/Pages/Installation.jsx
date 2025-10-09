@@ -46,7 +46,7 @@ if (!wishlist.length) return (<div className="flex flex-col justify-center items
   }
 
 return (
- <div className="space-y-4 p-4">
+ <div className="space-y-4 p-8">
   <div className='flex justify-between py-5 items-center'>
         <h1 className='text-3xl font-semibold ml-10'>
          

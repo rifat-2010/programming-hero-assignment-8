@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from 'react-router';
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 
 
@@ -40,6 +41,10 @@ const handleAddToWishList = () => {
       }
     }, [product.id]);
   
+    if (!product) {
+        return <div>Loading...</div>; // Or a spinner component
+    }
+
     return (
         <div className='flex flex-col gap-10'>
        <div class="card lg:card-side bg-base-100 shadow-sm flex gap-5">
@@ -80,9 +85,31 @@ const handleAddToWishList = () => {
 </div>
 
 {/* chart */}
-<div>
-<h1 className='text-5xl text-center'>chart</h1>
+<div className='mx-8 md:mx-20'>
+<h1 className='text-3xl font-bold mb-6'>Ratings</h1>
+<div style={{ width: '100%', height: 400 }}>
+  <ResponsiveContainer width="100%" height="100%">
+    <BarChart
+      layout="vertical"
+      data={product.ratings}
+      margin={{
+        top: 20,
+        right: 30,
+        left: 20,
+        bottom: 5,
+      }}
+    >
+      <CartesianGrid strokeDasharray="3 3" />
+      <XAxis type="number" />
+      <YAxis dataKey="name" type="category" width={80} />
+      <Tooltip />
+      <Legend />
+      <Bar dataKey="count" fill="#8884d8" />
+    </BarChart>
+  </ResponsiveContainer>
 </div>
+</div>
+
 
 
 {/* description */}
