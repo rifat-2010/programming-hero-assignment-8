@@ -1,364 +1,382 @@
 [
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
-    "title": "WhatsApp",
-    "companyName": "WhatsApp Inc.",
-    "id": 1,
-    "description": "Instant messaging and voice call app",
-    "size": 50,
-    "reviews": 5000000,
-    "ratingAvg": 4.5,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 50000 },
-      { "name": "2 star", "count": 100000 },
-      { "name": "3 star", "count": 300000 },
-      { "name": "4 star", "count": 1500000 },
-      { "name": "5 star", "count": 2500000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
-    "title": "Instagram",
-    "companyName": "Meta Platforms",
-    "id": 2,
-    "description": "Photo and video sharing social networking service",
-    "size": 60,
-    "reviews": 7000000,
-    "ratingAvg": 4.6,
-    "downloads": 2000000000,
-    "ratings": [
-      { "name": "1 star", "count": 70000 },
-      { "name": "2 star", "count": 140000 },
-      { "name": "3 star", "count": 420000 },
-      { "name": "4 star", "count": 2100000 },
-      { "name": "5 star", "count": 3500000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png",
-    "title": "YouTube",
-    "companyName": "Google LLC",
-    "id": 3,
-    "description": "Video sharing and streaming platform",
-    "size": 80,
-    "reviews": 8000000,
-    "ratingAvg": 4.7,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 60000 },
-      { "name": "2 star", "count": 120000 },
-      { "name": "3 star", "count": 360000 },
-      { "name": "4 star", "count": 2400000 },
-      { "name": "5 star", "count": 4000000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
-    "title": "Facebook",
-    "companyName": "Meta Platforms",
-    "id": 4,
-    "description": "Social networking service",
-    "size": 70,
-    "reviews": 6000000,
-    "ratingAvg": 4.3,
-    "downloads": 3000000000,
-    "ratings": [
-      { "name": "1 star", "count": 80000 },
-      { "name": "2 star", "count": 160000 },
-      { "name": "3 star", "count": 480000 },
-      { "name": "4 star", "count": 2400000 },
-      { "name": "5 star", "count": 3360000 }
-    ]
-  },
-  {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLT_EwvEW7nv6i2A23GUHbK7EeCa37zmLmbQ&s",
-    "title": "X (formerly Twitter)",
-    "companyName": "X Corp.",
-    "id": 5,
-    "description": "Microblogging and social networking service",
-    "size": 65,
-    "reviews": 4000000,
-    "ratingAvg": 4.2,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 40000 },
-      { "name": "2 star", "count": 80000 },
-      { "name": "3 star", "count": 240000 },
-      { "name": "4 star", "count": 1600000 },
-      { "name": "5 star", "count": 2400000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1200px-Gmail_icon_%282020%29.svg.png",
-    "title": "Gmail",
-    "companyName": "Google LLC",
-    "id": 6,
-    "description": "Email service by Google",
-    "size": 55,
-    "reviews": 5500000,
-    "ratingAvg": 4.6,
-    "downloads": 4000000000,
-    "ratings": [
-      { "name": "1 star", "count": 50000 },
-      { "name": "2 star", "count": 100000 },
-      { "name": "3 star", "count": 300000 },
-      { "name": "4 star", "count": 1500000 },
-      { "name": "5 star", "count": 2500000 }
-    ]
-  },
-  {
-    "image": "https://m.media-amazon.com/images/I/51rttY7a+9L._h1_.png",
-    "title": "Spotify",
-    "companyName": "Spotify AB",
-    "id": 7,
-    "description": "Music streaming service",
-    "size": 75,
-    "reviews": 4500000,
-    "ratingAvg": 4.4,
-    "downloads": 2000000000,
-    "ratings": [
-      { "name": "1 star", "count": 45000 },
-      { "name": "2 star", "count": 90000 },
-      { "name": "3 star", "count": 270000 },
-      { "name": "4 star", "count": 1350000 },
-      { "name": "5 star", "count": 2250000 }
-    ]
-  },
-  {
-    "image": "https://yt3.googleusercontent.com/ytc/AIdro_mZGy0ZLktn9NL_4__5MbK49kpYHU8YPkUgvvdpPxt3O6Q=s900-c-k-c0x00ffffff-no-rj",
-    "title": "Google Maps",
-    "companyName": "Google LLC",
-    "id": 8,
-    "description": "Navigation and mapping service",
-    "size": 85,
-    "reviews": 9000000,
-    "ratingAvg": 4.8,
-    "downloads": 5000000000,
-    "ratings": [
-      { "name": "1 star", "count": 40000 },
-      { "name": "2 star", "count": 80000 },
-      { "name": "3 star", "count": 240000 },
-      { "name": "4 star", "count": 1600000 },
-      { "name": "5 star", "count": 3200000 }
-    ]
-  },
-  {
-    "image": "https://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA",
-    "title": "TikTok",
-    "companyName": "ByteDance",
-    "id": 9,
-    "description": "Short-form video hosting service",
-    "size": 90,
-    "reviews": 10000000,
-    "ratingAvg": 4.7,
-    "downloads": 2000000000,
-    "ratings": [
-      { "name": "1 star", "count": 70000 },
-      { "name": "2 star", "count": 140000 },
-      { "name": "3 star", "count": 420000 },
-      { "name": "4 star", "count": 2100000 },
-      { "name": "5 star", "count": 3500000 }
-    ]
-  },
-  {
-    "image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/26/d7/1b26d773-d3a9-1d2d-da5e-eac6b136ab4c/AppleWatch_Splash.png/300x0w.jpg",
-    "title": "Snapchat",
-    "companyName": "Snap Inc.",
-    "id": 10,
-    "description": "Multimedia messaging app",
-    "size": 80,
-    "reviews": 6000000,
-    "ratingAvg": 4.3,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 60000 },
-      { "name": "2 star", "count": 120000 },
-      { "name": "3 star", "count": 360000 },
-      { "name": "4 star", "count": 1800000 },
-      { "name": "5 star", "count": 2400000 }
-    ]
-  },
-  {
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png",
-    "title": "Telegram",
-    "companyName": "Telegram Messenger LLP",
-    "id": 11,
-    "description": "Cloud-based instant messaging, VoIP, and media sharing",
-    "size": 85,
-    "reviews": 7000000,
-    "ratingAvg": 4.6,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 70000 },
-      { "name": "2 star", "count": 140000 },
-      { "name": "3 star", "count": 420000 },
-      { "name": "4 star", "count": 2100000 },
-      { "name": "5 star", "count": 3500000 }
-    ]
-  },
-  {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWeCwFAihxN7qu6kQn-EMkiaa9s60_2s3ZkQ&s",
-    "title": "LinkedIn",
-    "companyName": "Microsoft Corporation",
-    "id": 12,
-    "description": "Professional networking platform",
-    "size": 100,
-    "reviews": 8000000,
-    "ratingAvg": 4.5,
-    "downloads": 1000000000,
-    "ratings": [
-     { "name": "1 star", "count": 70000 },
-      { "name": "2 star", "count": 140000 },
-      { "name": "3 star", "count": 420000 },
-      { "name": "4 star", "count": 2100000 },
-      { "name": "5 star", "count": 3500000 }
-    ]
-  },
-   {
-    "image": "https://store-images.s-microsoft.com/image/apps.15970.14375561300249796.05fe8c27-ce9e-4144-8702-0e81e2f575b1.042364cb-b745-4796-a520-61291e2dd6b9",
-    "title": "Reddit",
-    "companyName": "Reddit Inc.",
-    "id": 13,
-    "description": "Social news aggregation and discussion platform",
-    "size": 60,
-    "reviews": 4000000,
-    "ratingAvg": 4.4,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 40000 },
-      { "name": "2 star", "count": 80000 },
-      { "name": "3 star", "count": 200000 },
-      { "name": "4 star", "count": 1000000 },
-      { "name": "5 star", "count": 2800000 }
-    ]
-  },
-  {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNOVmhh-hTYlE2rU0MUds5-Ke2QgtalQ6N4g&s",
-    "title": "Messenger",
-    "companyName": "Meta Platforms",
-    "id": 14,
-    "description": "Instant messaging app by Meta",
-    "size": 50,
-    "reviews": 5000000,
-    "ratingAvg": 4.5,
-    "downloads": 2000000000,
-    "ratings": [
-      { "name": "1 star", "count": 50000 },
-      { "name": "2 star", "count": 100000 },
-      { "name": "3 star", "count": 200000 },
-      { "name": "4 star", "count": 1200000 },
-      { "name": "5 star", "count": 3100000 }
-    ]
-  },
-  {
-    "image": "https://i.pinimg.com/280x280_RS/1c/b5/61/1cb561c8e7b9c709f78d110a4b5f0863.jpg",
-    "title": "Pinterest",
-    "companyName": "Pinterest Inc.",
-    "id": 15,
-    "description": "Visual discovery and bookmarking platform",
-    "size": 70,
-    "reviews": 3500000,
-    "ratingAvg": 4.3,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 30000 },
-      { "name": "2 star", "count": 60000 },
-      { "name": "3 star", "count": 180000 },
-      { "name": "4 star", "count": 900000 },
-      { "name": "5 star", "count": 2500000 }
-    ]
-  },
-  {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQusefcTCWIdEVgzSSoMgGjozRdyu7kdV_BEw&s",
-    "title": "Discord",
-    "companyName": "Discord Inc.",
-    "id": 16,
-    "description": "Voice, video, and text communication service",
-    "size": 80,
-    "reviews": 6000000,
-    "ratingAvg": 4.6,
-    "downloads": 700000000,
-    "ratings": [
-      { "name": "1 star", "count": 60000 },
-      { "name": "2 star", "count": 120000 },
-      { "name": "3 star", "count": 300000 },
-      { "name": "4 star", "count": 1500000 },
-      { "name": "5 star", "count": 3300000 }
-    ]
-  },
-  {
-    "image": "https://pbs.twimg.com/profile_images/1361722806694785027/UY7DlO0a_400x400.png",
-    "title": "Trello",
-    "companyName": "Atlassian",
-    "id": 17,
-    "description": "Project management and team collaboration tool",
-    "size": 55,
-    "reviews": 2000000,
-    "ratingAvg": 4.5,
-    "downloads": 500000000,
-    "ratings": [
-      { "name": "1 star", "count": 20000 },
-      { "name": "2 star", "count": 40000 },
-      { "name": "3 star", "count": 100000 },
-      { "name": "4 star", "count": 500000 },
-      { "name": "5 star", "count": 1340000 }
-    ]
-  },
-  {
-    "image": "https://yt3.googleusercontent.com/CvgBA1ypUZNxOjiCX0l1V2FbAm7oSDPZE4YkMvkpT_4iLXQ3IXWVtBgWnznHxgtcUoj50TXqZA=s900-c-k-c0x00ffffff-no-rj",
-    "title": "Netflix",
-    "companyName": "Netflix Inc.",
-    "id": 18,
-    "description": "Online streaming service for movies and series",
-    "size": 90,
-    "reviews": 8000000,
-    "ratingAvg": 4.7,
-    "downloads": 1000000000,
-    "ratings": [
-      { "name": "1 star", "count": 80000 },
-      { "name": "2 star", "count": 160000 },
-      { "name": "3 star", "count": 400000 },
-      { "name": "4 star", "count": 2000000 },
-      { "name": "5 star", "count": 5440000 }
-    ]
-  },
-  {
-    "image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxhfRM_njI7Pu32CmBLMdmnnzF6MdNHw4MJwlr.tSWLA2EJBQdZh0p3nNDzGvX2F6NoIc9ZSQ9xJqsGEg5bouOnA-&format=source",
-    "title": "Adobe Photoshop",
-    "companyName": "Adobe Inc.",
-    "id": 19,
-    "description": "Photo editing and graphic design software",
-    "size": 150,
-    "reviews": 5000000,
-    "ratingAvg": 4.8,
-    "downloads": 300000000,
-    "ratings": [
-      { "name": "1 star", "count": 50000 },
-      { "name": "2 star", "count": 100000 },
-      { "name": "3 star", "count": 200000 },
-      { "name": "4 star", "count": 1500000 },
-      { "name": "5 star", "count": 2850000 }
-    ]
-  },
-  {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzAWkY7jNPmhluHmwU7M7qe9Z1UZnLn_7rxA&s",
-    "title": "Slack",
-    "companyName": "Slack Technologies",
-    "id": 20,
-    "description": "Team collaboration and messaging tool",
-    "size": 60,
-    "reviews": 3500000,
-    "ratingAvg": 4.5,
-    "downloads": 400000000,
-    "ratings": [
-      { "name": "1 star", "count": 35000 },
-      { "name": "2 star", "count": 70000 },
-      { "name": "3 star", "count": 175000 },
-      { "name": "4 star", "count": 875000 },
-      { "name": "5 star", "count": 2465000 }
-    ]
-  }
+{
+"image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+"title": "WhatsApp",
+"companyName": "WhatsApp Inc.",
+"id": 1,
+"description": "Instant messaging and voice call app",
+"size": 50,
+"reviews": 5000000,
+"ratingAvg": 4.5,
+"downloads": 5000000000,
+"ratings": [
+{ "name": "1 star", "count": 50000 },
+{ "name": "2 star", "count": 100000 },
+{ "name": "3 star", "count": 300000 },
+{ "name": "4 star", "count": 1500000 },
+{ "name": "5 star", "count": 2500000 }
+],
+"longDescription": "WhatsApp revolutionizes the way we connect with loved ones and colleagues across the globe through its seamless instant messaging and voice calling features. Designed with simplicity at its core, this app allows users to send text messages, share photos, videos, documents, and voice notes in real-time, all encrypted end-to-end for utmost privacy. Whether you're coordinating a family event or closing a business deal, WhatsApp's intuitive interface ensures effortless communication without the hassle of complex setups.\n\nGroup chats bring everyone into the conversation, supporting up to 1024 members, while broadcast lists keep updates one-way and organized. The voice and video call capabilities shine in high definition, even over slow connections, making it feel like you're in the same room. Status updates let you share fleeting moments like stories, complete with stickers, GIFs, and polls to add personality. For businesses, WhatsApp Business tools enable quick responses, automated greetings, and catalogs, streamlining customer interactions.\n\nWith features like disappearing messages for temporary shares and location sharing for meetups, it adapts to every need. Backups to cloud services ensure nothing is lost, while the lightweight design runs smoothly on any device. In a world that's always connected, WhatsApp isn't just an app—it's the bridge that keeps relationships strong, work flowing, and conversations alive, all while respecting your data and time."
+},
+{
+"image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
+"title": "Instagram",
+"companyName": "Meta Platforms",
+"id": 2,
+"description": "Photo and video sharing social networking service",
+"size": 60,
+"reviews": 7000000,
+"ratingAvg": 4.6,
+"downloads": 2000000000,
+"ratings": [
+{ "name": "1 star", "count": 70000 },
+{ "name": "2 star", "count": 140000 },
+{ "name": "3 star", "count": 420000 },
+{ "name": "4 star", "count": 2100000 },
+{ "name": "5 star", "count": 3500000 }
+],
+"longDescription": "Instagram transforms everyday moments into visual stories, empowering users to capture, edit, and share photos and videos with a global community. At its heart, the app's powerful editing tools let you enhance images with filters, adjust colors, add text, and create collages, turning snapshots into professional-grade art. Stories keep things ephemeral and fun, allowing 24-hour shares with boomerangs, music, and interactive stickers like polls and questions to engage followers. Reels bring short-form creativity to life, with trending audio, effects, and duets that make viral content accessible to all. The Explore page curates personalized feeds based on your interests, surfacing inspiring accounts and trends to fuel discovery. Direct messaging evolves into a private social hub, supporting group chats, video calls, and vanishing photos for intimate exchanges. IGTV extends video horizons for longer-form content, while shopping tags turn inspiration into action by linking products directly in posts. Privacy controls ensure you share on your terms, with close friends lists and archive options. For creators, analytics track growth, and collaborations open doors to partnerships. Beyond aesthetics, Instagram fosters connections—whether building a brand, joining niche communities, or simply expressing yourself. It's a canvas for creativity, a stage for self-expression, and a window to the world's beauty, all in one beautifully designed feed."
+},
+{
+"image": "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png",
+"title": "YouTube",
+"companyName": "Google LLC",
+"id": 3,
+"description": "Video sharing and streaming platform",
+"size": 80,
+"reviews": 8000000,
+"ratingAvg": 4.7,
+"downloads": 5000000000,
+"ratings": [
+{ "name": "1 star", "count": 60000 },
+{ "name": "2 star", "count": 120000 },
+{ "name": "3 star", "count": 360000 },
+{ "name": "4 star", "count": 2400000 },
+{ "name": "5 star", "count": 4000000 }
+],
+"longDescription": "YouTube stands as the ultimate destination for video discovery, creation, and consumption, hosting billions of hours of content that educate, entertain, and inspire. From quick tutorials to epic documentaries, the platform's vast library is searchable with smart recommendations tailored to your watch history, ensuring you'll never run out of captivating videos. Creators thrive with easy upload tools, live streaming for real-time engagement, and monetization through ads, memberships, and Super Chats. Editing features like trimming, adding music from a royalty-free library, and captions make professional polish achievable for beginners. Shorts deliver bite-sized entertainment in vertical format, perfect for trending challenges and quick laughs. The app's offline downloads let you save videos for travel or spotty connections, while picture-in-picture mode keeps playback going while multitasking. Community tabs foster interaction with polls, updates, and behind-the-scenes peeks. Kids' mode provides safe, age-appropriate content with parental controls. Analytics empower growth, showing viewer demographics and retention rates. Whether you're learning guitar, following fitness routines, or diving into global news, YouTube connects you to experts and enthusiasts alike. It's more than a video site—it's a classroom, concert hall, and social square rolled into one, democratizing knowledge and amplifying voices worldwide."
+},
+{
+"image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+"title": "Facebook",
+"companyName": "Meta Platforms",
+"id": 4,
+"description": "Social networking service",
+"size": 70,
+"reviews": 6000000,
+"ratingAvg": 4.3,
+"downloads": 3000000000,
+"ratings": [
+{ "name": "1 star", "count": 80000 },
+{ "name": "2 star", "count": 160000 },
+{ "name": "3 star", "count": 480000 },
+{ "name": "4 star", "count": 2400000 },
+{ "name": "5 star", "count": 3360000 }
+],
+"longDescription": "Facebook redefines social connectivity by weaving a digital tapestry of friends, family, and interests into one vibrant platform. Users build profiles rich with photos, life events, and stories, sharing updates that spark conversations in comments, reactions, and shares. The News Feed curates a personalized stream of posts, events, and recommendations, keeping you looped into birthdays, achievements, and world happenings. Groups unite communities around hobbies, support, or causes, with tools for events, files, and polls to deepen engagement. Marketplace turns local buying and selling into a seamless experience, complete with messaging and shipping integrations. Stories and Reels add dynamic flair with music and effects for daily highlights. Video calls via Messenger bridge distances for virtual hangouts, while Watch parties sync viewing for shared laughs. Privacy settings empower control over who sees what, from public posts to intimate friend lists. For pages and businesses, insights track reach and interactions, fueling targeted ads and growth. Dating features match based on shared values, fostering real connections. Beyond networking, Facebook preserves memories through timeline reviews and photo albums. It's the digital hearth where relationships warm, ideas exchange, and communities thrive, making the world feel a little smaller and a lot closer every day."
+},
+{
+"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLT_EwvEW7nv6i2A23GUHbK7EeCa37zmLmbQ&s",
+"title": "X (formerly Twitter)",
+"companyName": "X Corp.",
+"id": 5,
+"description": "Microblogging and social networking service",
+"size": 65,
+"reviews": 4000000,
+"ratingAvg": 4.2,
+"downloads": 1000000000,
+"ratings": [
+{ "name": "1 star", "count": 40000 },
+{ "name": "2 star", "count": 80000 },
+{ "name": "3 star", "count": 240000 },
+{ "name": "4 star", "count": 1600000 },
+{ "name": "5 star", "count": 2400000 }
+],
+"longDescription": "X, once known as Twitter, pulses with the rhythm of real-time conversations, where every thought, news flash, and meme finds its voice in concise, powerful posts. The 280-character limit sharpens wit and urgency, turning users into broadcasters of their worlds—sharing insights, debates, or daily musings that ripple through networks. Threads weave deeper narratives, linking posts for storytelling that unfolds like a digital novel. Hashtags ignite trends, connecting strangers in global dialogues on everything from politics to pop culture. Spaces host live audio chats, democratizing talk shows with hosts and listeners joining spontaneously. Fleets offer ephemeral updates, while Communities group like-minded voices for focused discussions. The For You timeline algorithms surface timely, relevant content, blending followed accounts with discoveries to keep feeds fresh and engaging. Analytics for creators track impressions and engagements, inspiring premium features like subscriptions. Polls and quotes amplify interaction, while bookmarking saves gems for later. In crises or celebrations, X becomes the pulse-checker, delivering unfiltered updates faster than traditional media. It's not just a platform—it's a town square for the digital age, where ideas clash, alliances form, and the collective heartbeat of humanity echoes in every retweet and reply."
+},
+{
+"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1200px-Gmail_icon_%282020%29.svg.png",
+"title": "Gmail",
+"companyName": "Google LLC",
+"id": 6,
+"description": "Email service by Google",
+"size": 55,
+"reviews": 5500000,
+"ratingAvg": 4.6,
+"downloads": 4000000000,
+"ratings": [
+{ "name": "1 star", "count": 50000 },
+{ "name": "2 star", "count": 100000 },
+{ "name": "3 star", "count": 300000 },
+{ "name": "4 star", "count": 1500000 },
+{ "name": "5 star", "count": 2500000 }
+],
+"longDescription": "Gmail elevates email from a mere inbox to a smart, organized command center, powered by Google's innovative search and AI-driven features. With 15GB of free storage, it handles attachments, photos, and archives effortlessly, while smart labels categorize messages into Primary, Social, and Promotions tabs for clutter-free navigation. The search bar is a powerhouse, finding emails by keywords, dates, or even attachments with natural language queries. Composing shines with inline images, emojis, and confidential mode for expiring access. Snooze lets you defer replies until you're ready, and scheduled sends time messages perfectly. Integration with Google Workspace syncs calendars, docs, and drives for seamless workflows. Priority inbox learns your habits to highlight important emails, while unsubscribe tools tame promotional floods. Offline access keeps you productive anywhere, and two-factor authentication bolsters security. For teams, shared labels and delegation streamline collaboration. Voice typing speeds up drafting, and templates save repetitive phrases. Beyond communication, Gmail scans attachments for malware and suggests replies with Smart Compose. It's the reliable sidekick for personal notes, professional pitches, or global newsletters, turning email dread into effortless efficiency and keeping your digital life in perfect harmony."
+},
+{
+"image": "https://m.media-amazon.com/images/I/51rttY7a+9L.h1.png",
+"title": "Spotify",
+"companyName": "Spotify AB",
+"id": 7,
+"description": "Music streaming service",
+"size": 75,
+"reviews": 4500000,
+"ratingAvg": 4.4,
+"downloads": 2000000000,
+"ratings": [
+{ "name": "1 star", "count": 45000 },
+{ "name": "2 star", "count": 90000 },
+{ "name": "3 star", "count": 270000 },
+{ "name": "4 star", "count": 1350000 },
+{ "name": "5 star", "count": 2250000 }
+],
+"longDescription": "Spotify curates the soundtrack of your life with an unparalleled library of over 100 million songs and podcasts, delivering personalized audio experiences that evolve with your tastes. Daily Mixes blend familiar favorites with fresh discoveries, while Release Radar spotlights new drops from artists you love. Collaborative playlists let friends co-create vibes for road trips or parties, and Spotify Wrapped recaps your year in stats and stories. Offline downloads ensure music flows without Wi-Fi, and crossfade smooths transitions for uninterrupted grooves. Lyrics sync in real-time for sing-alongs, and equalizer tweaks tailor sound to your setup. Podcasts range from true crime to comedy, with auto-downloads for binge sessions. Wrapped in a sleek interface, the app's AI-powered recommendations uncover hidden gems via Discover Weekly and mood-based playlists like Chill Hits or Workout Anthems. Social sharing posts snippets to stories, sparking conversations. Premium ad-free listening and high-quality audio elevate immersion, while family plans share the joy. For creators, Spotify for Artists provides analytics and canvas visuals. Whether jogging, commuting, or unwinding, Spotify isn't just streaming—it's a companion that reads your mood, amplifies your moments, and connects you to the universal language of music."
+},
+{
+"image": "https://yt3.googleusercontent.com/ytc/AIdro_mZGy0ZLktn9NL_4__5MbK49kpYHU8YPkUgvvdpPxt3O6Q=s900-c-k-c0x00ffffff-no-rj",
+"title": "Google Maps",
+"companyName": "Google LLC",
+"id": 8,
+"description": "Navigation and mapping service",
+"size": 85,
+"reviews": 9000000,
+"ratingAvg": 4.8,
+"downloads": 5000000000,
+"ratings": [
+{ "name": "1 star", "count": 40000 },
+{ "name": "2 star", "count": 80000 },
+{ "name": "3 star", "count": 240000 },
+{ "name": "4 star", "count": 1600000 },
+{ "name": "5 star", "count": 3200000 }
+],
+"longDescription": "Google Maps charts the course of exploration with precision navigation and rich discoveries, turning every journey into a confident adventure. Real-time traffic updates reroute around delays, while satellite, street, and terrain views offer multifaceted perspectives. Voice-guided directions speak turns clearly, even offline with downloaded maps. Explore mode uncovers hidden gems—cafes, parks, or landmarks—curated by user reviews and photos. Street View immerses you in 360-degree previews, scouting spots virtually. Public transit layers integrate schedules and fares for eco-friendly commutes. Sharing locations pins your spot for meetups, and ETA sharing keeps groups synced. Indoor maps guide through malls and airports, while biking and walking routes prioritize safety. User-contributed edits keep data fresh, and accessibility features like wheelchair-friendly paths promote inclusivity. For businesses, My Business listings boost visibility with hours and menus. Live location tracking during rideshares adds peace of mind. Beyond getting from A to B, Maps layers cultural insights with Wikipedia links and photo spheres. It's the trusty compass in your pocket, demystifying the unknown, saving time, and sparking serendipity on roads less traveled."
+},
+{
+"image": "https://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA",
+"title": "TikTok",
+"companyName": "ByteDance",
+"id": 9,
+"description": "Short-form video hosting service",
+"size": 90,
+"reviews": 10000000,
+"ratingAvg": 4.7,
+"downloads": 2000000000,
+"ratings": [
+{ "name": "1 star", "count": 70000 },
+{ "name": "2 star", "count": 140000 },
+{ "name": "3 star", "count": 420000 },
+{ "name": "4 star", "count": 2100000 },
+{ "name": "5 star", "count": 3500000 }
+],
+"longDescription": "TikTok ignites creativity through addictive short-form videos, where 15-second clips explode into viral sensations blending humor, dance, and heart. The For You Page algorithms masterfully tailor feeds, surfacing content that hooks from the first swipe based on views, likes, and interactions. Duets and stitches remix videos collaboratively, turning solo acts into duos or chains of inspiration. Effects library brims with AR filters, green screens, and sounds from a massive music catalog, empowering anyone to produce pro-level edits. Challenges rally millions around hashtags, fostering global trends from fitness routines to recipe hacks. Live streams connect creators with fans for Q&As, gifts, and real-time feedback. The app's intuitive editor trims, speeds, and layers with ease, while captions and text overlays boost accessibility. Shopping integrations let trends translate to purchases seamlessly. Privacy tools control visibility, from public duets to private accounts. For brands, ads blend naturally into feeds. Beyond entertainment, TikTok educates with tutorials and sparks activism through awareness campaigns. It's a playground for expression, where ordinary users become stars, ideas spread like wildfire, and every scroll uncovers joy, talent, and the pulse of what's next."
+},
+{
+"image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/26/d7/1b26d773-d3a9-1d2d-da5e-eac6b136ab4c/AppleWatch_Splash.png/300x0w.jpg",
+"title": "Snapchat",
+"companyName": "Snap Inc.",
+"id": 10,
+"description": "Multimedia messaging app",
+"size": 80,
+"reviews": 6000000,
+"ratingAvg": 4.3,
+"downloads": 1000000000,
+"ratings": [
+{ "name": "1 star", "count": 60000 },
+{ "name": "2 star", "count": 120000 },
+{ "name": "3 star", "count": 360000 },
+{ "name": "4 star", "count": 1800000 },
+{ "name": "5 star", "count": 2400000 }
+],
+"longDescription": "Snapchat captures the fleeting magic of moments through multimedia snaps that vanish after viewing, fostering authentic, pressure-free sharing among friends. Lenses transform faces with hilarious filters, AR effects, and voice changers, turning selfies into interactive adventures. Stories compile day-in-the-life vignettes with music, stickers, and location tags for 24-hour broadcasts. Spotlight showcases user-created shorts, rewarding viral hits with features and cash. Map integrates geo-snaps for discovering nearby happenings or pinning private spots. Chat evolves with video notes, games, and Bitmojis for personalized flair. Memories archive favorites securely, with smart remix suggestions for collages. Groups streamline multi-person planning with polls and shared snaps. Discover curates premium content from publishers and creators, blending news with entertainment. Privacy reigns with view counts, screenshot alerts, and ghost mode on maps. For businesses, AR try-ons drive engagement. The app's whimsical design encourages spontaneity, from goofy filters to heartfelt check-ins. Snapchat isn't about perfection—it's about the raw, joyful now, connecting you in ways that feel intimate, fun, and utterly unscripted."
+},
+{
+"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png",
+"title": "Telegram",
+"companyName": "Telegram Messenger LLP",
+"id": 11,
+"description": "Cloud-based instant messaging, VoIP, and media sharing",
+"size": 85,
+"reviews": 7000000,
+"ratingAvg": 4.6,
+"downloads": 500000000,
+"ratings": [
+{ "name": "1 star", "count": 70000 },
+{ "name": "2 star", "count": 140000 },
+{ "name": "3 star", "count": 420000 },
+{ "name": "4 star", "count": 2100000 },
+{ "name": "5 star", "count": 3500000 }
+],
+"longDescription": "Telegram sets the standard for secure, speedy messaging with its cloud-synced chats, voice/video calls, and unlimited media sharing across devices. Secret chats offer self-destructing messages and forward locks for ultimate privacy, while channels broadcast to millions without limits. Bots automate everything from reminders to games, extending the app into a versatile toolkit. Folders organize chats by topic, pinning favorites for quick access. Voice-to-text transcribes notes hands-free, and scheduled sends time deliveries perfectly. Group video calls support up to 200 participants with screen sharing for virtual meetings. File transfers handle gigs without compression, ideal for creators. Stickers and GIFs add expressive flair, with custom packs for personalization. The open API invites developers to build integrations, from polls to payments. Desktop and web versions sync seamlessly, ensuring continuity. No ads, no data mining—Telegram prioritizes speed and user control. For communities, supergroups foster deep discussions with admins and search. It's the messenger that scales from intimate whispers to global announcements, empowering secure connections without compromise, all in a lightweight, feature-packed package."
+},
+{
+"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWeCwFAihxN7qu6kQn-EMkiaa9s60_2s3ZkQ&s",
+"title": "LinkedIn",
+"companyName": "Microsoft Corporation",
+"id": 12,
+"description": "Professional networking platform",
+"size": 100,
+"reviews": 8000000,
+"ratingAvg": 4.5,
+"downloads": 1000000000,
+"ratings": [
+{ "name": "1 star", "count": 70000 },
+{ "name": "2 star", "count": 140000 },
+{ "name": "3 star", "count": 420000 },
+{ "name": "4 star", "count": 2100000 },
+{ "name": "5 star", "count": 3500000 }
+],
+"longDescription": "LinkedIn forges professional pathways by connecting talent with opportunities in a vast network of over 1 billion members worldwide. Profiles serve as digital resumes, showcasing skills, endorsements, and accomplishments with rich media like projects and publications. The feed surfaces industry news, job alerts, and peer updates, curated for career growth. Job search filters by role, location, and company, with easy-apply options streamlining applications. Learning offers courses from experts to upskill in trending fields like AI or leadership. Messaging nurtures connections with InMail for intros and voice notes for rapport. Groups spark discussions on niches, from marketing to tech ethics. Events host virtual webinars and networking mixers. Creator mode amplifies thought leadership with newsletters and live videos. Analytics track profile views and post performance for strategic tweaks. Premium features unlock insights like who's viewed your profile. Beyond job hunting, LinkedIn mentors through advice-sharing and celebrates milestones. It's the career accelerator that turns acquaintances into allies, ideas into impacts, and ambitions into achievements, all within a trusted, professional ecosystem."
+},
+{
+"image": "https://store-images.s-microsoft.com/image/apps.15970.14375561300249796.05fe8c27-ce9e-4144-8702-0e81e2f575b1.042364cb-b745-4796-a520-61291e2dd6b9",
+"title": "Reddit",
+"companyName": "Reddit Inc.",
+"id": 13,
+"description": "Social news aggregation and discussion platform",
+"size": 60,
+"reviews": 4000000,
+"ratingAvg": 4.4,
+"downloads": 500000000,
+"ratings": [
+{ "name": "1 star", "count": 40000 },
+{ "name": "2 star", "count": 80000 },
+{ "name": "3 star", "count": 200000 },
+{ "name": "4 star", "count": 1000000 },
+{ "name": "5 star", "count": 2800000 }
+],
+"longDescription": "Reddit thrives as the front page of the internet, aggregating user-submitted stories, images, and debates across thousands of niche communities called subreddits. Upvotes and downvotes democratically surface the best content, from awe-inspiring AMAs with celebrities to deep-dive threads on science or memes. Search uncovers hidden gems, while awards let you tip creators with virtual coins. Live chats host real-time events like game launches or elections. The app's clean feed switches between home, popular, and all, with multireddits for custom curation. Comments nest into threaded conversations, fostering nuanced exchanges. Mod tools empower subreddit leaders to curate vibes and enforce rules. Awards and karma track contributions, motivating quality over quantity. Beyond entertainment, Reddit informs with explainers, advice, and crowdsourced solutions—from recipe tweaks to tech troubleshooting. Privacy options include throwaways for anonymity. For brands, sponsored posts blend seamlessly. It's the unfiltered agora where curiosity meets community, ideas evolve through scrutiny, and every voice—from newbie to expert—shapes the narrative of what's buzzing online."
+},
+{
+"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNOVmhh-hTYlE2rU0MUds5-Ke2QgtalQ6N4g&s",
+"title": "Messenger",
+"companyName": "Meta Platforms",
+"id": 14,
+"description": "Instant messaging app by Meta",
+"size": 50,
+"reviews": 5000000,
+"ratingAvg": 4.5,
+"downloads": 2000000000,
+"ratings": [
+{ "name": "1 star", "count": 50000 },
+{ "name": "2 star", "count": 100000 },
+{ "name": "3 star", "count": 200000 },
+{ "name": "4 star", "count": 1200000 },
+{ "name": "5 star", "count": 3100000 }
+],
+"longDescription": "Messenger bridges the gap between text and presence with rich, interactive chats that feel as natural as face-to-face talks. Integrated with Facebook, it pulls contacts seamlessly, supporting one-on-one threads or massive groups with mentions and reactions. Voice and video calls deliver crystal-clear quality, with effects and filters for fun. Stories share quick updates with music and links, expiring in 24 hours. Games embed mini-challenges to break the ice, while GIFs and stickers spice up expressions. Secret conversations lock messages end-to-end, with disappearing options for privacy. Payments send money instantly in supported regions, sans fees. Location sharing pins spots for coordination. The app's dark mode and customizable themes enhance usability, while chat folders organize by priority. Integrations with Instagram and WhatsApp expand reach. For businesses, automated replies and catalogs boost service. Voice-to-text and read receipts keep flows smooth. Messenger transforms mundane check-ins into vibrant exchanges—sharing laughs, planning outings, or collaborating on projects—all in a secure, ad-light space that prioritizes connection over clutter."
+},
+{
+"image": "https://i.pinimg.com/280x280_RS/1c/b5/61/1cb561c8e7b9c709f78d110a4b5f0863.jpg",
+"title": "Pinterest",
+"companyName": "Pinterest Inc.",
+"id": 15,
+"description": "Visual discovery and bookmarking platform",
+"size": 70,
+"reviews": 3500000,
+"ratingAvg": 4.3,
+"downloads": 1000000000,
+"ratings": [
+{ "name": "1 star", "count": 30000 },
+{ "name": "2 star", "count": 60000 },
+{ "name": "3 star", "count": 180000 },
+{ "name": "4 star", "count": 900000 },
+{ "name": "5 star", "count": 2500000 }
+],
+"longDescription": "Pinterest sparks inspiration through a visual wonderland of pins—images, videos, and ideas saved for every dream from home decor to travel itineraries. Boards organize collections thematically, with secret options for personal brainstorming. The home feed algorithms suggest content based on pins and searches, uncovering trends like seasonal recipes or DIY crafts. Lens uses AR to scan real-world objects for similar ideas, bridging physical and digital. Group boards collaborate on shared visions, perfect for wedding planning or office makeovers. Idea pins add step-by-step stories with voiceovers and music for tutorials. Shopping tags link directly to buys, turning browse into basket. Rich pins pull live data like prices or ingredients. The app's serene interface encourages mindful scrolling, with notifications for saves and comments. For creators, analytics reveal audience insights. Beyond saving, Pinterest fuels action—recipes tried, outfits styled, rooms revamped. It's the mood board for life, where curiosity curates beauty, practicality meets aesthetics, and every pin plants a seed for tomorrow's reality."
+},
+{
+"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQusefcTCWIdEVgzSSoMgGjozRdyu7kdV_BEw&s",
+"title": "Discord",
+"companyName": "Discord Inc.",
+"id": 16,
+"description": "Voice, video, and text communication service",
+"size": 80,
+"reviews": 6000000,
+"ratingAvg": 4.6,
+"downloads": 700000000,
+"ratings": [
+{ "name": "1 star", "count": 60000 },
+{ "name": "2 star", "count": 120000 },
+{ "name": "3 star", "count": 300000 },
+{ "name": "4 star", "count": 1500000 },
+{ "name": "5 star", "count": 3300000 }
+],
+"longDescription": "Discord unites gamers, creators, and communities in crystal-clear voice, video, and text channels that buzz with activity around the clock. Servers organize into customizable hubs with roles, permissions, and threads for focused chats. Stage channels host AMAs or panels with raised hands for orderly discourse. Screen sharing and Go Live stream gameplay or presentations seamlessly. Bots automate moderation, music playback, and fun like polls or trivia. Nitro boosts upload limits and custom emojis for flair. Mobile push-to-talk keeps hands free during raids. Integrations with Twitch, Spotify, and YouTube embed streams natively. Voice activity detection mutes background noise for pro audio. The app's low-latency tech ensures lag-free hangs, with activity status showing what's cooking. Clips capture epic moments for replays. For education or work, whiteboards and calendars add utility. Privacy controls gate access, fostering safe spaces. Discord transcends gaming—it's the virtual lounge where friendships forge in late-night laughs, collaborations spark in voice lobbies, and passions connect in endless channels of camaraderie."
+},
+{
+"image": "https://pbs.twimg.com/profile_images/1361722806694785027/UY7DlO0a_400x400.png",
+"title": "Trello",
+"companyName": "Atlassian",
+"id": 17,
+"description": "Project management and team collaboration tool",
+"size": 55,
+"reviews": 2000000,
+"ratingAvg": 4.5,
+"downloads": 500000000,
+"ratings": [
+{ "name": "1 star", "count": 20000 },
+{ "name": "2 star", "count": 40000 },
+{ "name": "3 star", "count": 100000 },
+{ "name": "4 star", "count": 500000 },
+{ "name": "5 star", "count": 1340000 }
+],
+"longDescription": "Trello simplifies project chaos with intuitive Kanban boards that visualize workflows as movable cards across lists like To Do, In Progress, and Done. Attachments, checklists, and labels add depth, turning tasks into actionable hubs. Power-Ups integrate calendars, votes, or automation for enhanced functionality. Butler bot streamlines routines with rule-based triggers, like auto-assigning cards. Comments foster team dialogue, with @mentions pinging collaborators. Due dates and reminders keep momentum. Mobile editing ensures on-the-go updates, while syncs across devices maintain continuity. Custom fields track budgets or priorities. For larger teams, dashboards aggregate board insights. Templates kickstart common projects like event planning or content calendars. The drag-and-drop interface feels playful yet powerful, reducing overwhelm. Privacy settings control board access, from public showcases to invite-only. Trello adapts to solos or squads, from personal goals to enterprise pipelines. It's the visual coach that clarifies next steps, celebrates progress, and turns abstract plans into tangible triumphs, one satisfying move at a time."
+},
+{
+"image": "https://yt3.googleusercontent.com/CvgBA1ypUZNxOjiCX0l1V2FbAm7oSDPZE4YkMvkpT_4iLXQ3IXWVtBgWnznHxgtcUoj50TXqZA=s900-c-k-c0x00ffffff-no-rj",
+"title": "Netflix",
+"companyName": "Netflix Inc.",
+"id": 18,
+"description": "Online streaming service for movies and series",
+"size": 90,
+"reviews": 8000000,
+"ratingAvg": 4.7,
+"downloads": 1000000000,
+"ratings": [
+{ "name": "1 star", "count": 80000 },
+{ "name": "2 star", "count": 160000 },
+{ "name": "3 star", "count": 400000 },
+{ "name": "4 star", "count": 2000000 },
+{ "name": "5 star", "count": 5440000 }
+],
+"longDescription": "Netflix reimagines entertainment with a boundless library of movies, series, and originals, handpicked by algorithms that know your binge style. Profiles personalize watches for families or roommates, with kid-safe zones and viewing histories. The home screen spotlights tailored rows like 'Trending Now' or 'Because You Watched,' uncovering hidden hits. Downloads fuel offline marathons on flights or commutes. Trailers and behind-the-scenes tease choices without spoilers. Interactive specials branch narratives based on picks, like gaming your story. Audio descriptions and subtitles cater to accessibility. Speed controls tweak playback for quick recaps. The app's sleek player pauses seamlessly across devices, with transfer for smooth handoffs. For creators, data-driven insights shape global hits. Social features share watchlists or reactions. Beyond escapism, Netflix educates with docs and inspires with diverse voices. Profiles track progress, nudging unfinished series. It's the cinematic companion that curates nights in, sparks watercooler chats, and delivers stories that stick, all ad-free and on-demand."
+},
+{
+"image": "https://images-eds-ssl.xboxlive.com/image?url=4rt9.lXDC4H_93laV1_eHHFT949fUipzkiFOBH3fAiZZUCdYojwUyX2aTonS1aIwMrx6NUIsHfUHSLzjGJFxxhfRM_njI7Pu32CmBLMdmnnzF6MdNHw4MJwlr.tSWLA2EJBQdZh0p3nNDzGvX2F6NoIc9ZSQ9xJqsGEg5bouOnA-&format=source",
+"title": "Adobe Photoshop",
+"companyName": "Adobe Inc.",
+"id": 19,
+"description": "Photo editing and graphic design software",
+"size": 150,
+"reviews": 5000000,
+"ratingAvg": 4.8,
+"downloads": 300000000,
+"ratings": [
+{ "name": "1 star", "count": 50000 },
+{ "name": "2 star", "count": 100000 },
+{ "name": "3 star", "count": 200000 },
+{ "name": "4 star", "count": 1500000 },
+{ "name": "5 star", "count": 2850000 }
+],
+"longDescription": "Adobe Photoshop unleashes boundless creativity in photo editing and graphic design, arming artists with layers, masks, and tools that bend reality to vision. Neural filters apply AI magic like sky replacements or style transfers in seconds. Adjustment layers non-destructively tweak colors, curves, and exposures for flawless results. Brush engines simulate oils or watercolors with pressure sensitivity. Content-aware fill erases distractions intelligently, while generative expand stretches canvases seamlessly. Type tools craft typography with warping and effects. 3D modeling and VR previews bring designs to life. Cloud libraries sync assets across devices for fluid workflows. Mobile integration captures edits on-the-go. Tutorials and Sensei AI guide novices to pros. Presets and actions automate repeats, saving hours. Export options span web to print with precision. For teams, shared libraries and comments streamline feedback. Beyond retouching, Photoshop powers composites, logos, and animations. It's the industry gold standard that empowers dreamers to dazzle, turning raw pixels into polished masterpieces that captivate and communicate."
+},
+{
+"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzAWkY7jNPmhluHmwU7M7qe9Z1UZnLn_7rxA&s",
+"title": "Slack",
+"companyName": "Slack Technologies",
+"id": 20,
+"description": "Team collaboration and messaging tool",
+"size": 60,
+"reviews": 3500000,
+"ratingAvg": 4.5,
+"downloads": 400000000,
+"ratings": [
+{ "name": "1 star", "count": 35000 },
+{ "name": "2 star", "count": 70000 },
+{ "name": "3 star", "count": 175000 },
+{ "name": "4 star", "count": 875000 },
+{ "name": "5 star", "count": 2465000 }
+],
+"longDescription": "Slack streamlines team dynamics with organized channels, direct messages, and integrations that make collaboration feel effortless and engaging. Workspaces segment topics like #general or #project-alpha, with threads keeping replies tidy. Huddles spark quick voice/video calls with screen shares for impromptu brainstorms. Emojis and GIFs infuse personality into reactions. Search unearths messages, files, or snippets with filters for efficiency. Apps connect to Google Drive, Zoom, or Trello, automating workflows like ticket alerts. Status updates and reminders signal availability or deadlines. Canvas crafts shared docs within chats for brainstorming. Clips record async video updates, bridging time zones. Do Not Disturb respects focus time with scheduled summaries. Analytics highlight active channels for optimization. Mobile push keeps you looped without overload. For enterprises, compliance and guest access scale securely. Slack transforms email chains into vibrant hubs where ideas flow, feedback loops fast, and teams bond over shared wins. It's the digital watercooler that boosts productivity while nurturing the human side of work."
+}
 ]
- 
-    

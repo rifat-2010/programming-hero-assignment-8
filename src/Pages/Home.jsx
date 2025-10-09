@@ -7,14 +7,20 @@ import { IoStarHalf } from "react-icons/io5";
 import { MdOutlineAutoGraph } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 
+
 const Home = () => {
   
     const products = useLoaderData();
     const firstEight = products.slice(0, 8);
   return (
+  
+
     <div className="mt-[80px]">
         {/* header */}
       <div className="flex flex-col gap-4">
+    
+  
+
         <h1 className="text-6xl font-semibold text-center">We Build </h1>
         <h1 className="text-6xl font-semibold text-center">
           <span

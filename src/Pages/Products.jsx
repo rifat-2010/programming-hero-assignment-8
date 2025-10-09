@@ -4,6 +4,9 @@ import { FaDownload } from "react-icons/fa6";
 import { IoStarHalf } from "react-icons/io5";
 import { useState } from "react";
 import AppErrorImg from '../assets/App-Error.png'
+import Loading from "../../src/Loading/Loading";
+
+
 
 
 const Products = () => {
@@ -14,6 +17,7 @@ const Products = () => {
 
 // input > search's title find and emplement by "searchedProducts.map"
   const [search, setSearch] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
   
   const term = search.trim().toLocaleLowerCase()
   const searchedProducts = term
@@ -23,8 +27,13 @@ const Products = () => {
     : products
     // console.log(searchedProducts)
 
-
-
+  const handleSearch = (e) => {
+    setIsLoading(true);
+    setSearch(e.target.value);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 500); // 500ms delay
+  };
 
 
 
@@ -48,13 +57,15 @@ const Products = () => {
           <label className="input border border-gray-950">
             <FaSearch />
             <input value={search}
-            onChange={e => setSearch(e.target.value)} type="search" placeholder="search Apps" />
+            onChange={handleSearch} type="search" placeholder="search Apps" />
           </label>
         </div>
       </div>
 
       {/* all cart section of products */}
-      {searchedProducts.length > 0 ? (
+      {isLoading ? (
+        <Loading />
+      ) : searchedProducts.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-8">
           {searchedProducts.map((product) => (
             <Link to={`/product/${product.id}`} className="group">

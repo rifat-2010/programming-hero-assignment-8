@@ -26,7 +26,7 @@ const handleAddToWishList = () => {
      const product = products.find(p => p.id === Number(id));
   
     return (
-        
+        <div className='flex flex-col gap-10'>
        <div class="card lg:card-side bg-base-100 shadow-sm flex gap-5">
   <figure className='mx-8 my-5'>
     <img
@@ -59,7 +59,22 @@ const handleAddToWishList = () => {
         </div>
         </div>
          <button onClick={() => handleAddToWishList()}  to='/products' className='w-[200px] h-12 flex justify-center items-center gap-2.5 py-3 px-4 rounded-[4px] bg-[#00d390] text-white font-bold text-xl cursor-pointer mx-auto md:mx-0'>Install Now ({product.size})</button>
+         <hr />
   </div>
+ 
+</div>
+
+{/* chart */}
+<div>
+<h1 className='text-5xl text-center'>chart</h1>
+</div>
+
+
+{/* description */}
+<div className='mx-8 md:mx-20'>
+<h1 className='text-[24px] font-bold '>Description</h1><br />
+<p className='font-semibold md:text-[20px] text-gray-500'>{product.longDescription}</p>
+</div>
 </div>
     );
 };
