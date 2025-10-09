@@ -9,7 +9,7 @@ const handleAddToWishList = () => {
       let updatedList = []
       if (existingList) {
         const isDuplicate = existingList.some(p => p.id === product.id)
-        if (isDuplicate) return alert('Sorry vai')
+        if (isDuplicate) return alert('You’ve already installed this app!')
         updatedList = [...existingList, product]
       } else {
         updatedList.push(product)

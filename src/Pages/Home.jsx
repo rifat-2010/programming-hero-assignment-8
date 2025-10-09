@@ -8,6 +8,7 @@ import { MdOutlineAutoGraph } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
+  
     const products = useLoaderData();
     const firstEight = products.slice(0, 8);
   return (
@@ -30,8 +31,7 @@ const Home = () => {
         </h1>
 
          <p
-          class="text-[#627382]
- font-bold text-center mx-36"
+          className="text-[#627382] font-bold text-center max-w-2xl mx-auto"
         >
         At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.
         </p>
@@ -40,18 +40,18 @@ const Home = () => {
             <a href="https://play.google.com/store/games?hl=en" className="w-50 h-14 flex justify-center items-center gap-2.5 py-3 px-6 box-border border border-gray-300 rounded-sm cursor-pointer" target="_blank"><FaGooglePlay />Google Play</a>
             <a href="https://play.google.com/store/apps?hl=en" className="w-50 h-14 flex justify-center items-center gap-2.5 py-3 px-6 box-border border border-gray-300 rounded-sm cursor-pointer" target="_blank"><FaAppStoreIos />App Store</a>
         </div>
-        <img src={hero} alt="hero-img" className="w-[580px] mx-auto mt-15" />
+        <img src={hero} alt="hero-img" className=" mx-auto mt-15" />
       </div>
 
 
       {/* banner */}
-      <div className="w-full p-[80px] flex flex-col justify-start items-center gap-10 bg-[#627382]"  style={{
+      <div className="w-full p-10 md:p-20 flex flex-col justify-start items-center gap-10 bg-[#627382]"  style={{
     background: "linear-gradient(125.07deg, rgba(99,46,227,1), rgba(159,98,242,1) 100%)"
   }}>
 <h1 className="text-[48px] font-bold text-center text-white">
          Trusted by Millions, Built for You
         </h1>
-        <div className="flex gap-40">
+        <div className="flex flex-col md:flex-row gap-10 md:gap-20 lg:gap-40">
         {/* total downloads */}
         <div className="flex flex-col justify-center items-center ">
         <p className="text-white font-semibold">Total Downloads</p>
@@ -76,13 +76,12 @@ const Home = () => {
 
 
 {/* all box title */}
-     <div className="mt-[80px] mx-20 flex flex-col gap-3 mb-5">
+     <div className="mt-[80px] mx-5 md:mx-10 lg:mx-20 flex flex-col gap-3 mb-5">
             <h1 className="text-[48px] font-bold text-center flex items-center justify-center">
              Trending Apps <MdOutlineAutoGraph className="ml-4"/>
             </h1>
             <p
-              class="text-[#627382]
-     font-bold text-center"
+              className="text-[#627382] font-bold text-center"
             >
             Explore All Trending Apps on the Market developed by us
             </p>
@@ -90,22 +89,22 @@ const Home = () => {
 
 
 {/* doing fetch and show all carts by json data */}
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-4">
     {
         firstEight.map(product => 
-            <Link id={product.id} to='/products'>
-        <div class="card bg-base-100 w-full  md:w-80 lg:w-90 shadow-sm  hover:scale-105 transition ease-in border-2 mx-auto">
+            <Link id={product.id} to='/products' className="group">
+        <div className="card bg-base-100 w-full shadow-sm  group-hover:scale-105 transition ease-in border-2 mx-auto">
          <figure className="h-68 w-full overflow-hidden rounded-t-xl px-5 py-5">
            <img
              src={product.image} />
          </figure >
-         <div class="card-body">
-           <h2 class="card-title">
+         <div className="card-body">
+           <h2 className="card-title">
              {product.title}
            </h2>
-           <div class="card-actions justify-between">
-             <div class="badge badge-outline p-5 rounded-sm bg-[rgba(241,245,232,1)] text-[#00d390] font-bold"><FaDownload />{product.downloads}</div>
-             <div class="badge badge-outline p-5 rounded-sm bg-[#ffe0e1] text-[#ff8811] font-bold"><IoStarHalf />{product.ratingAvg}</div>
+           <div className="card-actions justify-between">
+             <div className="badge badge-outline p-5 rounded-sm bg-[rgba(241,245,232,1)] text-[#00d390] font-bold"><FaDownload />{product.downloads}</div>
+             <div className="badge badge-outline p-5 rounded-sm bg-[#ffe0e1] text-[#ff8811] font-bold"><IoStarHalf />{product.ratingAvg}</div>
            </div>
          </div>
        </div>
@@ -114,7 +113,7 @@ const Home = () => {
     }
     
 </div>
- <div class="flex justify-center mt-[40px]">
+ <div className="flex justify-center mt-[40px]">
          <NavLink to='/products' className='w-[250px] h-12 flex justify-center items-center gap-2.5 py-3 px-4 rounded-[4px] bg-[linear-gradient(125.07deg,rgba(99,46,227,1),rgba(159,98,242,1)_100%)] text-white font-bold '>Show All</NavLink>
       </div>
     </div>

@@ -29,7 +29,7 @@ const Navber = () => {
     </div>
     <a class="btn btn-ghost text-xl">
         <img src={logo} alt="logo" className="w-[40px] h-[40px]" />
-       <NavLink to='/home'  className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold text-[25px]">RIFAT.IO</NavLink>
+       <NavLink to='/home'  className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold text-xl md:text-[25px]">RIFAT.IO</NavLink>
     </a>
   </div>
   <div class="navbar-center hidden lg:flex">
