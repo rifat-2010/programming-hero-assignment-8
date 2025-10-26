@@ -10,8 +10,6 @@ import Loading from "../Loading/Loading";
 
 
 
-
-
 const router = createBrowserRouter([
   {
     path: "/",

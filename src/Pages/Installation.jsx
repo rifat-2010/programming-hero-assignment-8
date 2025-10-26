@@ -36,7 +36,7 @@ if (!wishlist.length) return (<div className="flex flex-col justify-center items
   })()
 
   const handleRemove = id => {
-     toast('😢😢😢App unstalled successfully!');
+     toast.success('😢😢😢App unstalled successfully!');
     // remove from localstorage
     const existingList = JSON.parse(localStorage.getItem('wishlist'))
     let updatedList = existingList.filter(p => p.id !== id);

@@ -11,9 +11,10 @@ const MainLayout = () => {
       <Navber></Navber>
       <Outlet></Outlet>
       <Footer></Footer>
+      {/* alert's toaster tag there for access the toast feature all section */}
       <ToastContainer
         position="top-right"
-        theme="dark"
+        theme="light"
         autoClose={5000}
         hideProgressBar={false}
         

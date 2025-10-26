@@ -2,34 +2,41 @@ import { useLoaderData, useParams } from 'react-router';
 import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import Loading from '../Loading/Loading';
 
 
 
 const ProducsDetails = () => {
-    const [installed, setInstalled] = useState(false);
+     
 
+   const {id} = useParams()
+    // console.log(params)
+
+    
+      // data fetch from routes.jsx
+      const products = useLoaderData();
+     const product = products.find(p => p.id === Number(id));
+
+
+const [installed, setInstalled] = useState(false);
 const handleAddToWishList = () => {
       const existingList = JSON.parse(localStorage.getItem('wishlist'))
       let updatedList = []
       if (existingList) {
         const isDuplicate = existingList.some(p => p.id === product.id)
-        if (isDuplicate) return toast('🙂😊You’ve already installed this app!')
+        if (isDuplicate) return toast.error('🙂😊You’ve already installed this app!')
         updatedList = [...existingList, product]
       } else {
         updatedList.push(product)
       }
       localStorage.setItem('wishlist', JSON.stringify(updatedList))
-      toast('🎉🎉🎉App installed successfully!');
+      toast.success('🎉🎉🎉App installed successfully!');
       setInstalled(true);
     }
 
-      const {id} = useParams()
-    // console.log(params)
 
 
-    // data fetch from routes.jsx
-          const products = useLoaderData();
-     const product = products.find(p => p.id === Number(id));
+
 
     useEffect(() => {
       const existingList = JSON.parse(localStorage.getItem('wishlist'))
@@ -42,7 +49,7 @@ const handleAddToWishList = () => {
     }, [product.id]);
   
     if (!product) {
-        return <div>Loading...</div>; // Or a spinner component
+        return <Loading></Loading>; // Or a spinner component
     }
 
     return (

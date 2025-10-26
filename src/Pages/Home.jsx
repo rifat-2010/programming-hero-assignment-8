@@ -43,8 +43,8 @@ const Home = () => {
         </p>
 
         <div className="flex justify-center gap-8">
-            <a href="https://play.google.com/store/games?hl=en" className="w-50 h-14 flex justify-center items-center gap-2.5 py-3 px-6 box-border border border-gray-300 rounded-sm cursor-pointer" target="_blank"><FaGooglePlay />Google Play</a>
-            <a href="https://play.google.com/store/apps?hl=en" className="w-50 h-14 flex justify-center items-center gap-2.5 py-3 px-6 box-border border border-gray-300 rounded-sm cursor-pointer" target="_blank"><FaAppStoreIos />App Store</a>
+            <a href="https://play.google.com/store/games?hl=en" className="w-50 h-14 flex justify-center items-center gap-2.5 py-3 px-6 box-border border border-gray-300 rounded-sm cursor-pointer" target="_blank"><img src="https://img.icons8.com/?size=96&id=rZwnRdJyYqRi&format=png" className="w-10 h-10" alt="google-play-store" />Google Play</a>
+            <a href="https://www.apple.com/store" className="w-50 h-14 flex justify-center items-center gap-2.5 py-3 px-6 box-border border border-gray-300 rounded-sm cursor-pointer" target="_blank"><img src="https://img.icons8.com/?size=128&id=jbsjruPQ2EJI&format=png" className="w-10 h-10" alt="google-play-store" />App Store</a>
         </div>
         <img src={hero} alt="hero-img" className=" mx-auto mt-15" />
       </div>
@@ -98,7 +98,7 @@ const Home = () => {
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-4">
     {
         firstEight.map(product => 
-            <Link key={product.id} to='/products' className="group">
+            <Link key={product.id} to={`/product/${product.id}`} className="group">
         <div className="card bg-base-100 w-full shadow-sm  group-hover:scale-105 transition ease-in border-2 mx-auto">
          <figure className="h-68 w-full overflow-hidden rounded-t-xl px-5 py-5">
            <img
